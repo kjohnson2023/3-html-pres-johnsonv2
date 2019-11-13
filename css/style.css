@@ -1,0 +1,156 @@
+body {
+    margin: 0 auto;
+}
+
+html, body, section {
+    width: 100%;
+    height: 100%;
+}
+
+.mySlides {display:none;}
+
+p, h1, h2, h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 7vw;
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 8.5vw;
+    color: white;   
+}
+
+
+h5 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 6vw;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    h5 {
+        font-size: 8.5vw;
+    }
+}
+
+.fullscreen-img-1{
+    /* The image used */
+    background-image: url("../img/beautiful-sunset-pok-rie.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fullscreen-img-2{
+    /* The image used */
+    background-image: url("../img/sisters-hakan-hu.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fullscreen-img-3{
+    /* The image used */
+    background-image: url("../img/boat-sunset-skitterphoto.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fullscreen-img-4{
+    /* The image used */
+    background-image: url("../img/walk-on-beach-pixabay.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fullscreen-img-5{
+    /* The image used */
+    background-image: url("../img/seagulls-nastya-sensei.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.black-shadow {
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+}
+
+.black-shadow-2 {
+    text-shadow: 2px 4px 2px rgb(0, 0, 0);
+}
+
+.audio {
+    width: 250px;
+    height: 30px;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+.responsive {
+    max-width: 100%;
+    max-height: 100%px;
+}
